@@ -8,21 +8,21 @@
 using namespace std;
 
 double fun1(double x1, double x2, double x3) {
-	return 3 * x1 - x2 * x2 + x3;
-		//-(x1 * x1 * x1) + x2 * x2 + x3;
-		//x1 * x1 * x1 - (x1 * x2 * x2) - x3;
+	return 3 * x1 - x2 * x2 + x3; // 1 уравнение 1 системы 
+		//-(x1 * x1 * x1) + x2 * x2 + x3; // 1 уравнение 2 системы 
+		//x1 * x1 * x1 - (x1 * x2 * x2) - x3; // аналогично 
 }
 
 double fun2(double x1, double x2, double x3) {
-	return x1 * x1 - x2 + x3 * x3 * x3;
-		//2 * x1 - (x2 * x2 * x2) + 5 * x3;
-		//-x1 + x2 * x3;
+	return x1 * x1 - x2 + x3 * x3 * x3; // 2 уравнение 1 системы 
+		//2 * x1 - (x2 * x2 * x2) + 5 * x3; // 2 уравнение 2 системы 
+		//-x1 + x2 * x3; // аналогично 
 }
 
 double fun3(double x1, double x2, double x3) {
-	return x1 * x1 * x1 + 2 * x2 - 6 * x3;
-		//sin(x1) - 5 * x2 + x3 * x3 * x3;
-		//x1 * x1 + x2 - (x3 * x3 * x3);
+	return x1 * x1 * x1 + 2 * x2 - 6 * x3; // 3 уравнение 1 системы 
+		//sin(x1) - 5 * x2 + x3 * x3 * x3; // 3 уравнение 2 системы 
+		//x1 * x1 + x2 - (x3 * x3 * x3); // аналогично 
 }
 
 /*double stef(double y1, double y2, double eps1, double sh, double m, int p, double (*func)(double, double, double)) {
